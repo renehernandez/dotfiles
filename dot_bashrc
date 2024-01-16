@@ -1,9 +1,4 @@
 export BASH_SILENCE_DEPRECATION_WARNING=1
 export SHELL=/bin/bash
 
-# check if /usr/local/bin is in the PATH
-if [[ ":$PATH:" != *":/usr/local/bin:"* ]]; then
-  export PATH="/usr/local/bin:$PATH"
-fi
-
 eval "$(starship init bash)"
