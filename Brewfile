@@ -1,16 +1,24 @@
 tap "homebrew/cask-fonts"
 
-
 brew "chezmoi"
 brew "git"
 brew "curl"
 brew "bash-completion@2"
+brew "doctl"
+brew "awscli"
+brew "helm"
+brew "helmfile"
+brew "tfenv"
+brew "terraform-docs"
+brew "yq"
+brew "kubectx"
+brew "rbenv"
 
 cask "font-fira-code-nerd-font"
 brew "starship"
 
 cask "google-chrome"
-cask "rectangle"
+cask "raycast"
 cask "1password"
 cask "visual-studio-code"
 cask "devpod"
